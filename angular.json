@@ -28,9 +28,15 @@
               }
             ],
             "styles": [
-              "src/styles.scss",
-              "node_modules/font-awesome/css/font-awesome.css"
+              {
+                "input": "src/styles/styles.scss"
+              }
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "path/to/styles"
+              ]
+            },
             "scripts": []
           },
           "configurations": {
@@ -80,9 +86,15 @@
             "tsConfig": "src/tsconfig.spec.json",
             "scripts": [],
             "styles": [
-              "src/styles.scss",
-              "node_modules/font-awesome/css/font-awesome.css"
+              {
+                "input": "src/styles/styles.scss"
+              }
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "path/to/styles"
+              ]
+            },
             "assets": [
               {
                 "glob": "**/*",
