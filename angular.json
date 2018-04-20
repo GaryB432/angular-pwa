@@ -29,8 +29,15 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              {
+                "input": "src/styles/styles.scss"
+              }
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "path/to/styles"
+              ]
+            },
             "scripts": []
           },
           "configurations": {
@@ -79,9 +86,14 @@
             "karmaConfig": "src/karma.conf.js",
             "styles": [
               {
-                "input": "styles.scss"
+                "input": "src/styles/styles.scss"
               }
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "path/to/styles"
+              ]
+            },
             "scripts": [],
             "assets": [
               {
